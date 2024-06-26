@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class serieCollatz {
+public class serieFizzBuzz {
     public static void main(String[] args) {
-        SpringApplication.run(serieCollatz.class, args);
+        SpringApplication.run(serieFizzBuzz.class, args);
     }
 
     @GetMapping("/fizzbuzz")
-    public String fizzbuzz(@RequestParam(value = "n", defaultValue = "20") int n) {
+    public String fizzbuzz(@RequestParam(value = "n", defaultValue = "15") int n) {
         StringBuilder result = new StringBuilder();
 
         for (int i = 1; i <= n; i++) {
