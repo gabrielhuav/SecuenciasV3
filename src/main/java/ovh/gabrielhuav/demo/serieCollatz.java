@@ -13,26 +13,20 @@ public class serieCollatz {
         SpringApplication.run(serieCollatz.class, args);
     }
 
-    @GetMapping("/fizzbuzz")
-    public String fizzbuzz(@RequestParam(value = "n", defaultValue = "20") int n) {
-        StringBuilder result = new StringBuilder();
+    @GetMapping("/collatz")
+    public String collatz(@RequestParam(value = "number", defaultValue = "18") int number) {
+        StringBuilder sequence = new StringBuilder();
+        sequence.append(number).append(" ");
 
-        for (int i = 1; i <= n; i++) {
-            result.append(fizzBuzzFunction(i)).append("\n");
+        while (number!= 1) {
+            if (number % 2 == 0) {
+                number = number / 2;
+            } else {
+                number = 3 * number + 1;
+            }
+            sequence.append(number).append(" ");
         }
 
-        return result.toString();
-    }
-
-    private String fizzBuzzFunction(int n) {
-        if (n % 3 == 0 && n % 5 == 0) {
-            return "FizzBuzz";
-        } else if (n % 3 == 0) {
-            return "Fizz";
-        } else if (n % 5 == 0) {
-            return "Buzz";
-        } else {
-            return String.valueOf(n);
-        }
+        return sequence.toString();
     }
 }
