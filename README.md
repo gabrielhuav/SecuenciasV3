@@ -17,9 +17,11 @@ Adicionalmente, se incorpora una versión con Gradle en lugar de Maven en la sig
 ## Introduction
 1. Se implementa un método que recibe como parámetro un número entero e implemente la secuencia de Collatz
    - Se puede probar con http://localhost:8080/collatz/19 y con http://localhost:8080/collatz?n=19
+   - Se implementa un modelo y un controlador
 
 2. Se implementa un método que recibe como parámetro un número entero e implemente la secuencia de FizzBuzz
    - Se puede probar con http://localhost:8080/fizzbuzz/15 y con http://localhost:8080/fizzbuzz?n=15
+   - Se implementa un modelo y un controlador
 
 3. Se implementa un endpoint en el API que responde a las siguientes características:
    - Path: /api/sequence/collatz/{input}
@@ -29,3 +31,4 @@ Adicionalmente, se incorpora una versión con Gradle en lugar de Maven en la sig
    - Se ha agregado un método GET adicional
      - Responde a la ruta /api/sequence/collatz sin parámetro input
      - Devuelve la secuencia de Collatz para un valor predeterminado.
+   - Se implementa un modelo y un controlador
