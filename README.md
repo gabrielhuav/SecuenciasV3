@@ -25,7 +25,7 @@ Adicionalmente, se incorpora una versión con Gradle en lugar de Maven en la sig
 
 3. Se implementa un endpoint en el API que responde a las siguientes características:
    - Path: /api/sequence/collatz/{input}
-     - Se puede probar con http://localhost:8080/fizzbuzz/15 y con http://localhost:8080/fizzbuzz?n=15
+     - Se puede probar con http://localhost:8080/api/secuence/collatz o  http://localhost:8080/api/secuence/collatz/5
    - Métodos: PUT, GET (además del método PUT original, se agrega un método GET para la misma ruta)
    - Respuesta: Se devuelve un objeto Map que contiene la secuencia de Collatz como una cadena JSON
    - Se ha agregado un método GET adicional
