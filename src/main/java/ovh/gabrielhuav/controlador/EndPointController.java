@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import ovh.gabrielhuav.modelo.SerieCollatz;
 
-@RestController //Se puede probar con http://localhost:8080/api/sequence/collatz/5
-@RequestMapping("/api/sequence")
+@RestController //Se puede probar con http://localhost:8080/api/secuence/collatz/5
+@RequestMapping("/api/secuence")
 public class EndPointController {
     private final SerieCollatz serieCollatz;
 
