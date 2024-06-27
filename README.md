@@ -1,6 +1,6 @@
 # Arquetipo de API Rest
 
-Este repositorio contiene un un arquetipo de API Rest con las siguientes características:
+Este repositorio contiene un arquetipo de API Rest con las siguientes características:
 - Spring Boot
 - Gradle
 - Java 17
