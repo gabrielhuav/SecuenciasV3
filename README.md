@@ -1,9 +1,9 @@
 # Arquetipo de API Rest
 
 Este repositorio contiene un un arquetipo de API Rest con las siguientes características:
-●	Spring Boot
-●	Maven
-●	Java 17
+- Spring Boot
+- Maven
+- Java 17
 
 ## Instrucciones mínimas para poner en ejecución el proyecto
 
@@ -14,12 +14,10 @@ Este repositorio contiene un un arquetipo de API Rest con las siguientes caracte
 
 ## Introduction
 1. Se implementa un método que recibe como parámetro un número entero e implemente la secuencia de Collatz
-   - En la clase serieCollatz.java
-     - Se puede probar con http://localhost:8080/collatz/19 y con http://localhost:8080/collatz?n=19
+   - Se puede probar con http://localhost:8080/collatz/19 y con http://localhost:8080/collatz?n=19
 
 2. Se implementa un método que recibe como parámetro un número entero e implemente la secuencia de FizzBuzz
-   - En la clase serieCollatz.java
-     - Se puede probar con http://localhost:8080/fizzbuzz/15 y con http://localhost:8080/fizzbuzz?n=15
+   - Se puede probar con http://localhost:8080/fizzbuzz/15 y con http://localhost:8080/fizzbuzz?n=15
 
 3. Se implementa un endpoint en el API que responde a las siguientes características:
    - Path: /api/sequence/collatz/{input}
