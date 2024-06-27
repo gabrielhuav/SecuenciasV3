@@ -2,7 +2,7 @@
 
 Este repositorio contiene un un arquetipo de API Rest con las siguientes características:
 - Spring Boot
-- Maven
+- Gradle
 - Java 17
 
 ## Instrucciones mínimas para poner en ejecución el proyecto
@@ -11,6 +11,10 @@ Este repositorio contiene un un arquetipo de API Rest con las siguientes caracte
 - Apache NetBeans IDE 21 (Opcional)
 - Tomcat9
 - Proyecto Spring Boot creado a través del servicio web [spring.io](http://start.spring.io/).
+- Gradle Build Tool
+   1. Inicializar una terminal en la carpeta del proyecto
+   2. Se compila con el comando: "gradle clean build"
+   3. Se lanza con el comando: ".\gradlew.bat bootRun --info"
 
 ## Introduction
 1. Se implementa un método que recibe como parámetro un número entero e implemente la secuencia de Collatz
