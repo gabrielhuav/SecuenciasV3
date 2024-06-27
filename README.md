@@ -5,6 +5,8 @@ Este repositorio contiene un un arquetipo de API Rest con las siguientes caracte
 - Maven
 - Java 17
 
+Adicionalmente, se incorpora una versión con Gradle en lugar de Maven en la siguiente [rama](https://github.com/gabrielhuav/SecuenciasV3/tree/gradle).
+
 ## Instrucciones mínimas para poner en ejecución el proyecto
 
 - Java Development Kit, (específicamente, se utiliza Amazon Corretto 17)
